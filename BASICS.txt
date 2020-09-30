@@ -1,0 +1,25 @@
+Stack is a linear data structure which follows LIFO pattern in which the operations are performed.
+
+------------------------------------
+Basic operations in Stack.
+>Push
+	Adds an item in the Stack. 
+	If the Stack is full, then it is said to be an Overflow condition.
+
+>Pop
+	Removes an item from the top of the Stack.
+	If the Stack is empty, then it is said to be an Underflow condition.
+ 
+>Peek
+	Returns top element of Stack.
+
+>isEmpty
+	Returns true if Stack is empty, else false.
+
+------------------------------------
+The push(), pop(), isEmpty() and peek() all take O(1) time.
+
+------------------------------------
+There are two ways to implement a stack:
+--Using array		(easy to implement.. but it's size is static)
+--Using linked list	
