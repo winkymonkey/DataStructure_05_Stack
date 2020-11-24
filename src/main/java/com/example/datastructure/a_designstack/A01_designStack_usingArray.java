@@ -78,16 +78,16 @@ class MyStack1 {
 	
 	@Override
 	public String toString() {
-		if(A == null)
+		if (A == null)
             return null;
-		if(top == -1)
+		if (top == -1)
             return "[]";
 
         StringBuilder builder = new StringBuilder();
         builder.append('[');
-        for(int i=0; ; i++) {
+        for (int i=0; ; i++) {
             builder.append(A[i]);
-            if(i == top)
+            if (i == top)
                 return builder.append(']').toString();
             builder.append(", ");
         }

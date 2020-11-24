@@ -13,7 +13,7 @@ public class D02_sortStack_usingAnotherStack {
 	 * 
 	 * while (!inStack.isEmpty()) {
 	 * 	 xx = inStack.pop();
-	 * 	 while(!tmpStack.isEmpty() && tmpStack.peek()>xx) {
+	 * 	 while (!tmpStack.isEmpty() && tmpStack.peek()>xx) {
 	 * 		inStack.push(tmpStack.pop());
 	 * 	 }
 	 * 	 tmpStack.push(xx);

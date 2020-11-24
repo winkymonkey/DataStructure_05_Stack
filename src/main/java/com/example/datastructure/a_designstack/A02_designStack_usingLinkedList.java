@@ -53,7 +53,7 @@ class MyStack2 {
 	
 	public void push(final int elem) {
 		Node newNode = new Node(elem);
-		if(list.head == null)
+		if (list.head == null)
 			list.head = newNode;
 		else {
 			newNode.next = list.head;
@@ -63,7 +63,7 @@ class MyStack2 {
 	
 	public int pop() throws Exception {
 		Node tempNode = list.head;
-		if(tempNode == null)
+		if (tempNode == null)
 			throw new Exception("stack underflow");
 		else {
 			list.head = list.head.next;
@@ -78,7 +78,7 @@ class MyStack2 {
 	public String toString() {
 		StringBuilder sbu = new StringBuilder();
 		Node temp = list.head;
-		while(temp != null) {
+		while (temp != null) {
 			sbu.append(temp.data + " -> ");
 			temp = temp.next;
 		}

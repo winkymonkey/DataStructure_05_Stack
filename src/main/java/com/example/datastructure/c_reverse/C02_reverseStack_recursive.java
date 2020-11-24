@@ -36,7 +36,7 @@ public class C02_reverseStack_recursive {
 	
 	
 	private static void insertAtBottom(Stack<Integer> stack, int elem) {
-		if(stack.isEmpty())
+		if (stack.isEmpty())
 			stack.push(elem);
 		
 		else {

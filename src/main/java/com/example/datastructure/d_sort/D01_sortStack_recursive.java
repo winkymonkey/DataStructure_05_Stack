@@ -38,7 +38,7 @@ public class D01_sortStack_recursive {
 	
 	
 	private static void sortedInsert(Stack<Integer> stack, int elem) {
-		if(stack.isEmpty() || elem > stack.peek())
+		if (stack.isEmpty() || elem > stack.peek())
 			stack.push(elem);
 		
 		else {

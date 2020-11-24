@@ -23,7 +23,7 @@ public class Z02_longestValidSubstring {
 	 * Stack stack = new Stack();
 	 * stack.push(-1);
 	 * 
-	 * for(all characters) {
+	 * for (all characters) {
 	 *    if A[i] is '('
 	 * 	     stack.push(i);
 	 * 	 
